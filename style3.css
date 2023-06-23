@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Roboto+Condensed&display=swap');
+body{
+    background-color: white;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin: auto;
+    width: 100vw;
+}
+.justify{
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    display: flex;
+    height:30px;
+    width: 80vw;
+    background-color: rgb(46, 45, 45);
+    border-radius: 12px;
+    color: white;
+   
+}
+img{
+    padding-bottom: 15px;
+}
+ul{
+    display: flex;
+    margin: auto;
+    
+    
+    list-style-type: none;
+    
+}
+li:hover{
+    color:yellow;
+    font-size: 22px;
+}
+ul li{
+
+    cursor: pointer;
+    padding: 0 34px;
+    font-family: 'Playfair Display', serif;
+    
+
+}
+.flex1{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+    width: 100vw;
+    background-color: white;
+    padding-bottom: 50px;
+}
+.shop{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Kablammo', cursive;
+    font-size: 45px;
+    font-weight: bolder;
+}
+.itemsList{
+    display: flex;
+
+}
+.items img{
+    width:30vh;
+}
+.flex2{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 41.5vh;
+    padding: 10px 15px;
+    background-color:white;
+
+
+}
+div.flex2:hover{
+    box-shadow: 5px 10px #888888;
+    height: 42vh;
+}
+footer{
+    display: flex;
+    margin: auto;
+    height: 5vh;
+    padding-top: 28px;
+    background-color: rgb(231, 228, 228);
+    width: 100vw;
+}
+    
+footer img{
+    width: 200px;
+}
+.logo{
+    padding: 0 100px;
+}
+.copyright{
+    padding-left:600px;
+    text-decoration: overline;
+}
+a:link {color: white;}
+a:visited {color: white;}
+a:hover {color: yellow;}
+a:active {color: white;}

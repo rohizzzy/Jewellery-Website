@@ -1,0 +1,95 @@
+body{
+    background-color: rgb(206, 211, 211);
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    position: sticky;
+    top: 0;
+    background-color: white;
+    margin: auto;
+    width: 100vw;
+    height: 30vh;
+}
+.justify{
+    justify-content: center;
+    align-items: center;
+}
+img{
+    padding-bottom: 15px;
+}
+nav{
+    display: flex;
+    height:30px;
+    width: 80vw;
+    background-color: rgb(46, 45, 45);
+    border-radius: 12px;
+    color: white;
+   
+}
+ul{
+    display: flex;
+    margin: auto;
+    
+    
+    list-style-type: none;
+    
+}
+li:hover{
+    color:yellow;
+    font-size: 22px;
+}
+ul li{
+
+    cursor: pointer;
+    padding: 0 34px;
+    font-family: 'Playfair Display', serif;
+    
+
+}
+.about{
+    display: flex;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+    font-weight: bolder;
+    padding: 10px 0;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    width: 100vw;
+    height: 40vh;
+    
+}
+.description{
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-weight: bolder;
+    padding: 5px 65px;
+}
+footer{
+    display: flex;
+    margin: auto;
+    height: 10vh;
+}
+footer img{
+    width: 200px;
+}
+.logo{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 100px;
+}
+.copyright{
+    display: flex;
+    flex-direction: column;
+    padding-left:600px;
+    text-decoration: overline;
+}
+a:link {color: white;}
+a:visited {color: white;}
+a:hover {color: yellow;}
+a:active {color: white;}
